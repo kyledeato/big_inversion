@@ -7,7 +7,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App firstName="John" lastName="Smith" age={ 8 } hairColor="Brown"/>
+    <App firstName="Bill" lastName="Smith" age={ 832 } hairColor="Brown"/>
+    <App firstName="John" lastName="Doe" age={ 8 } hairColor="Brown"/>
+
   </React.StrictMode>
 );
 
